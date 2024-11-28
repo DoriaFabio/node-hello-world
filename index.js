@@ -6,4 +6,6 @@
 5. Proviamo a passare da terminale una parola come argomento. da mostrare dopo “Hello”. Dovremo quindi stampare “Hello parola_passata”
 */
 
-console.log("Hello Boolean");
+const parola_passata = process.argv[2];
+
+console.log(`Hello ${parola_passata}`);
