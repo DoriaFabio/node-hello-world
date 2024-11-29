@@ -7,5 +7,9 @@
 */
 
 const parola_passata = process.argv[2];
-
-console.log(`Hello ${parola_passata}`);
+let parola = "Boolean";
+if(parola_passata) {
+    console.log(`Hello ${parola_passata}`);
+} else {
+    console.log(`Hello ${parola}`);
+}
